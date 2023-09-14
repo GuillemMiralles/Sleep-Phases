@@ -1,35 +1,42 @@
-# Clasificación del Sueño con Modelos de Aprendizaje Automático 🌙
+# Deep in the Depths of Sleep: Creating Interpretable Models to Detect Sleep Phases Using Polysomnography Signals from Patients 🛌💤🔍
 
-## Introducción
+## Introduction 📝
 
-En este proyecto, exploramos y analizamos diferentes modelos de aprendizaje automático para clasificar el sueño entre las fases REM y noREM. Utilizamos datos de señales EEG y EMG para entrenar y evaluar nuestros modelos.
+Welcome to my sleep classification project! In this project, we explore and analyze different machine learning models to classify sleep between REM and non-REM phases. We use EEG and EMG signal data to train and evaluate our models.
 
-## Objetivo
+## Objective 🎯
 
-El objetivo principal de este proyecto es desarrollar modelos de clasificación de sueño precisos y comprender qué variables influyen en la predicción de la fase del sueño.
+The main objective of this project is to develop accurate sleep classification models and understand which variables influence sleep phase prediction.
 
-## Técnicas Utilizadas
+## Techniques Used 🤖
 
-En este proyecto, nos centramos en el uso de modelos interpretables, es decir, modelos que se pueden comprender y explicar de manera clara. La elección de modelos interpretables es crucial en aplicaciones médicas, ya que permite a los profesionales de la salud entender el razonamiento detrás de las predicciones y tomar decisiones informadas.
+In this project, we focus on using interpretable models, i.e., models that can be understood and explained clearly. The choice of interpretable models is crucial in medical applications as it enables healthcare professionals to understand the reasoning behind predictions.
 
-## Resultados Clave
+## Key Results 📊
 
-- Hemos utilizado tres tipos de modelos principales: Regresión Logística, Random Forest y Reglas (CBA).
+Below is a table of results for the models used:
 
-- El modelo Random Forest alcanzó una precisión de aproximadamente 94% en la clasificación del sueño, con una sensibilidad alta (98.9%) pero una especificidad menor (66.4%).
+| Model            | Accuracy | Sensitivity | Specificity | Best Model |
+|------------------|----------|-------------|-------------|------------|
+| Logistic Regression | 0.85     | 0.79        | 0.89        | ❌          |
+| Random Forest    | 0.94     | 0.98        | 0.66        | ✅          |
+| Rule-Based Model (CBA) | 0.93 | 0.99      | 0.66        |            |
 
-- Identificamos que las variables relacionadas con la desviación estándar de los canales son cruciales en la clasificación, especialmente en el modelo Random Forest.
+✅ **Best Model**: Random Forest
 
-- Observamos interacciones interesantes entre las variables de desviación estándar del canal O1 y los electromiogramas.
+- The Random Forest model achieved an accuracy of approximately 94% in sleep classification, with high sensitivity (98.9%) but lower specificity (66.4%).
 
-- Utilizamos técnicas como LIME y Shapley para interpretar los modelos a nivel local y entender cómo afectan las variables a las predicciones.
+- We identified that variables related to channel standard deviation are crucial in classification, especially in the Random Forest model.
 
-## Conclusiones y Potencial Social
+- We observed interesting interactions between the variables of standard deviation of channel O1 and the electromyograms.
 
-En este proyecto, hemos logrado desarrollar modelos de aprendizaje automático precisos para la clasificación del sueño. Estos modelos tienen el potencial de ser utilizados en aplicaciones médicas para ayudar en la evaluación de pacientes con trastornos del sueño.
+- We used techniques like LIME and Shapley to interpret models at a local level and understand how variables affect predictions.
 
-Además, hemos demostrado la importancia de utilizar modelos interpretables en aplicaciones de salud, ya que permiten una toma de decisiones más informada y transparente.
+## Conclusions and Social Potential 🚀
 
-En resumen, este proyecto representa un paso importante hacia la mejora de la clasificación del sueño y el apoyo a los profesionales de la salud en su trabajo diario.
+In this project, we have successfully developed accurate machine learning models for sleep classification. These models have the potential to be used in medical applications to assist in the assessment of patients with sleep disorders.
 
+Furthermore, we have demonstrated the importance of using interpretable models in healthcare applications, as they enable more informed and transparent decision-making.
+
+In summary, this project represents an important step towards improving sleep classification and supporting healthcare professionals in their daily work.
 
