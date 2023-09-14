@@ -40,3 +40,8 @@ Furthermore, we have demonstrated the importance of using interpretable models i
 
 In summary, this project represents an important step towards improving sleep classification and supporting healthcare professionals in their daily work.
 
+## Project Files 📂
+
+- [Presentation Slides (Deteccion_FaseRem.pdf)](Deteccion_FaseRem.pdf): You can access the presentation slides for this project to get an overview of the main findings and methodologies.
+
+- [Project HTML (ModeladoFasesSueno.html)](ModeladoFasesSueno.html): The HTML file contains the detailed project report, including code, analysis, and visualizations. You can explore the project in-depth by clicking on the link.
